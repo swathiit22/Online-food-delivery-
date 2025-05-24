@@ -1,0 +1,21 @@
+# Online Food Delivery Website
+
+**DelishDrop** is a simple responsive web app for food ordering.
+
+## Features
+- HTML5/CSS3 and JavaScript
+- Menu display from JSON
+- Order form with confirmation
+
+## Files
+- `index.html` — Main page
+- `style.css` — Styling
+- `script.js` — Interaction logic
+- `menu.json` — Sample menu data
+- `README.md` — Project guide
+
+## How to Run
+Open `index.html` in a browser. JavaScript dynamically loads the menu and handles order submission.
+
+## License
+MIT
