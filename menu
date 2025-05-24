@@ -1,0 +1,7 @@
+[
+  { "name": "Pizza", "price": "$10" },
+  { "name": "Burger", "price": "$6" },
+  { "name": "Pasta", "price": "$8" },
+  { "name": "Sushi", "price": "$12" },
+  { "name": "Salad", "price": "$5" }
+]
