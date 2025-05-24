@@ -1,0 +1,27 @@
+document.addEventListener('DOMContentLoaded', function () {
+  const menuItems = [
+    { name: 'Pizza', price: '$10' },
+    { name: 'Burger', price: '$6' },
+    { name: 'Pasta', price: '$8' }
+  ];
+
+  const menuContainer = document.getElementById('menu-items');
+  menuItems.forEach(item => {
+    const div = document.createElement('div');
+    div.textContent = `${item.name} - ${item.price}`;
+    menuContainer.appendChild(div);
+  });
+
+  const form = document.getElementById('order-form');
+  const confirmation = document.getElementById('confirmation');
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    const name = document.getElementById('name').value;
+    const item = document.getElementById('item').value;
+    const quantity = document.getElementById('quantity').value;
+
+    confirmation.textContent = `Thank you ${name}, your order of ${quantity} ${item}(s) has been placed!`;
+    form.reset();
+  });
+});
