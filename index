@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Food Delivery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>DelishDrop</h1>
+    <nav>
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="menu">
+      <h2>Menu</h2>
+      <div id="menu-items"></div>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>DelishDrop delivers your favorite meals hot and fresh to your doorstep.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form id="order-form">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="text" id="item" placeholder="Food Item" required>
+        <input type="number" id="quantity" placeholder="Quantity" required>
+        <button type="submit">Place Order</button>
+      </form>
+      <p id="confirmation"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 DelishDrop</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
